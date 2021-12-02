@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """ Basic annotations - floor """
+import math
 
 
 def floor(n: float) -> int:
@@ -10,4 +11,4 @@ def floor(n: float) -> int:
 
     Return: the floor of the float
     """
-    return n.__floor__()
+    return math.floor(n)
